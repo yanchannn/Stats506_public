@@ -21,3 +21,16 @@ Yingyi Yang: https://github.com/YingyiYang/Stats506_public
 
 * Week3: In week 3 we worked on git.
 
+
+### Week 4-6
+
+Group members:
+
+Yan Chen: https://github.com/yanchannn/Stats506_public
+
+Hao He: https://github.com/hhaohe513/Stats506_public
+
+Zhilin He: https://github.com/zhilinheobv/Stats506_public
+
+Tianshi Wang:https://github.com/SkyWang0919/Stats506_public
+
