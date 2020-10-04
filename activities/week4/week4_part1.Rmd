@@ -34,8 +34,7 @@ library(datasets)
 data("Orange")
 View(Orange)
 
-num_obs = Orange %>% group_by(Tree) %>% tally()
-
+Orange %>% group_by(Tree) %>% tally()
 ```
 
 2. Write a dplyr pipe to change the units of age to "years" 
@@ -43,7 +42,6 @@ and circumference to "cm".
 
 ```{r q2}
 Orange_1 = Orange %>% transform(age = age/365, circumference = circumference/10)
-
 ```
 
  
@@ -56,6 +54,8 @@ Orange %>% group_by(age) %>%
   left_join(Orange, by = "age") %>%
   mutate(zscore = (circumference-mean)/sd) %>% 
   select(-c(mean,sd))
+
+Orange %>% mutate(z_score = (age - mean(age)) / sd(age))
 ```
 
  
@@ -64,8 +64,10 @@ Orange %>% group_by(age) %>%
 the final measured age for each tree.
 
 ```{r q4}
-orange_r = Orange_1 %>% mutate(avg_rate = circumference/age) 
-mean(orange_r$avg_rate)
+Orange_1 %>% 
+  group_by(Tree) %>% 
+  transmute(growth = max(circumference) / max(age)) %>% 
+  unique()
 ```
 
 5. Describe the result of the following pipe in 1-3 sentences. Your
@@ -88,4 +90,4 @@ Orange %>%
 
 **Description:**
 
-It returns a 7x3 dataframe with each row represents the average rate(mm/day) of growth across trees and the standard deviation of the average rate for  a given age(day)
+It returns a 7x3 dataframe with each row represents the average rate(mm/day) of growth across trees and the standard deviation of the average rate for a given age(day)
