@@ -90,5 +90,5 @@ Orange %>%
 
 **Description:**
 
-It returns a 7x3 dataframe with each row represents the average rate(mm/day) of growth across trees and\
+It returns a 7x3 dataframe with each row represents the average rate(mm/day) of growth across trees and
 the standard deviation of the average rate for a given age(day)
