@@ -1,6 +1,6 @@
 ---
 title: "Week 4 Activity"
-author: 'Group X: A, B, C, D'
+author: 'Group 5: Yan Chen, Hao He, Zhilin He, Tianshi Wang'
 date: "9/29/2020"
 output: html_document
 ---
@@ -90,4 +90,5 @@ Orange %>%
 
 **Description:**
 
-It returns a 7x3 dataframe with each row represents the average rate(mm/day) of growth across trees and the standard deviation of the average rate for a given age(day)
+It returns a 7x3 dataframe with each row represents the average rate(mm/day) of growth across trees and\
+the standard deviation of the average rate for a given age(day)
