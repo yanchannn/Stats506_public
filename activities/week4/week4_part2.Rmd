@@ -57,7 +57,7 @@ p1 = plot_data %>%
 
 p1
 
-ggsave('w4_p2_q1_plot.png', height = 5, width = 5)
+ggsave('w4_p2_q1_plot.png')
 
 ```
 
@@ -75,7 +75,7 @@ p2 = plot_data %>%
   xlab('Difference in Proportion of homes with internet access') + 
   theme_bw()
 
-ggsave('w4_p2_q2_plot.png', , height = 5, width = 5)
+ggsave('w4_p2_q2_plot.png')
 
 
 ```
