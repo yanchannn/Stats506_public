@@ -37,7 +37,7 @@ Tianshi Wang:https://github.com/SkyWang0919/Stats506_public
 
 Here is the plot for week4 q1 and q2.
 
-<img src="./activities/week4/w4_p2_q1_plot.png" height = "400px" width = "600px">
+<img src="./activities/week4/w4_p2_q1_plot.png" height = "400px" width = "700px">
 <img src="./activities/week4/w4_p2_q2_plot.png" height = "400px" width = "600px">
 
 
