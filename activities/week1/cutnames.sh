@@ -1,11 +1,10 @@
 #!/bin/env bash
-# Stats 506, Fall 2020
-# <1> Update the header with your information. 
-# This script serves as a template for Part 1 of 
+# Stats 506, Fall 2020 
+# This script is for Part 1 of 
 # the shell scripting activity for week 1. 
 #
-# Author(s): James Henderson
-# Updated: August 16, 2020
+# Author(s): Yan Chen
+# Updated: September 8, 2020
 # 79: -------------------------------------------------------------------------
 
 # preliminary, so you know you've run the script
