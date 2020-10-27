@@ -4,6 +4,22 @@
 
 This is the link to course page: https://jbhender.github.io/Stats506/F20/index.html
 
+
+## Group Project
+
+Group Project Repo: https://github.com/aravind1338/506F20GroupProject
+
+Group Member:
+
+Yan Chen: https://github.com/yanchannn/Stats506_public
+
+Aravind Mantravadi: https://github.com/aravind1338/Stats506_public
+
+Yingyi Yang: https://github.com/YingyiYang/Stats506_public
+
+
+
+
 ## Activities 
 
 ### Weeks 1-3
